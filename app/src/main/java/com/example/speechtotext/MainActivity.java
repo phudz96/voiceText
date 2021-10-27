@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         }else
-            Toast.makeText(this, "Voice N/A", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Không có sẵn", Toast.LENGTH_SHORT).show();
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 }
